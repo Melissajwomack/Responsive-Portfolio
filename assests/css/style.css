@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background-image: url(../images/oriental.png)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headerMain {
+    width: 100%;
+    background-color: #ffffffff;
+    border-bottom: 2px solid #cccccccc;
+    height: 75px;
+    position:fixed;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    clear: both;
+    z-index: 2;
+}
+
+.headerName {
+    background-color:#4aaaa5;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    float: left;
+    color: #fefffe;
+    padding-top: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 250px;
+    height: 50px;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.navHeader {
+    float: right;
+    margin-top: 30px;
+    margin-right: 15%;
+}
+
+.navLinks {
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 100px;
+    background-color: #ffffff;
+    overflow: auto;
+    clear: both;
+    border: 1px solid #dddddd;
+    margin-bottom: 200px;
+}
+
+.contentTitle {
+    color: #4aaaa5;
+    margin: 20px;
+}
+
+hr {
+    margin: 20px;
+}
+
+#profilePic {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 20px;
+}
+
+p {
+    color: #777777;
+    margin: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.iconContainer {
+    text-align: center;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    color: #fefffe;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+
+.icons {
+    height: 100%;
+    width: 100%;
+}
+
+.iconDiv {
+    background-color: #4aaaa5;
+    bottom: 8px;
+    padding: 10px;
+    width: 180px;
+    position: relative;
+    bottom: 70px;
+}
+
+label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #4aaaa5;
+    text-align: center;
+    color:  #fefffe;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100px;
+}
+
+input {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 2px;
+}
+
+textarea {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 95.5%;
+    height: 100px;
+}
+.footer {
+    background-color: #666666;
+    border-top: 7px solid #4aaaa5;
+    text-align: center;
+    font-size: 0.5em;
+    color: #fefffe;
+    padding: 15px 0 0 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+}
+
