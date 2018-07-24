@@ -74,21 +74,25 @@
 
     }
     .iconContainer {
-        width: 37em;
-        height: 30em;
-        margin: 0.9em 1em 0.9em 1em;
-        float: left;
-        position: relative;
+    position: static;
+    width: 88%;
+    height: 22em;
     }
+
+    .icons {
+        height: 100%;
+        width: 100%;
+    }
+
     input {
         margin-left: 1.3em;
         margin-bottom: 1em;
-        width: 94%;
+        width: 90%;
         padding: 0.25em;
     }
     
     textarea {
-        width: 95%;
+        width: 92%;
         height: 6em;
         margin: 0 0 1em 1.3em;
     }
