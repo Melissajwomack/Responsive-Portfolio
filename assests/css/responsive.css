@@ -7,33 +7,31 @@
         } 
     .headerName {
         margin-left: 0.75em;
+        padding: 1.13em;
         }
 
     .content {
         width: 70%;
         margin: 6em 0 5em 0.75em;
         }
-
-    .footer {
-        background-color: #666666;
-        border-top: 0.5em solid #4aaaa5;
-        text-align: center;
-        font-size: 0.6em;
-        color: #fff;
-        padding: 0.5em;
-        }
-}
+    }
 
 /* Width at 768px and below */
 
 @media screen and (max-width: 768px) {
     .content {
-        width: 90%;
-        margin: 7.5em 0 5em 0.75em;
+        width: 98.5%;
+        margin-top: 5em;
+        margin-left: 0.25em;
     }
 
     .headerName {
-        margin-left: 0.75em;
+        margin-left: 0.25em;
+        padding: 1.13em;
+    }
+
+    .navHeader {
+        padding: 0.9em;
     }
 
 }
@@ -46,6 +44,66 @@
     }
 
     .headerName {
-        width: 100%;
+        width: 95%;
+        margin-left: 0;
+        margin-bottom: 0.5em;
+        text-align: center;
+        float: left;
+    }
+    .navHeader {
+        padding: 1em;
+        background-color: #fff;
+        color: #777;
+        width: 95%;
+        text-align: center;
+        float: none;
+    }
+    .navLinks {
+        margin: 10em 1em 0 1em;
+    }
+
+    .content {
+        width: 98%;
+        margin: 5em 0 5em 0.3em;
+    }
+
+    #profilePic {
+        margin: 0 0 1em 1em;
+        width: 95%;
+        height: 95%;
+
+    }
+    .iconContainer {
+        width: 37em;
+        height: 30em;
+        margin: 0.9em 1em 0.9em 1em;
+        float: left;
+        position: relative;
+    }
+    input {
+        margin-left: 1.3em;
+        margin-bottom: 1em;
+        width: 94%;
+        padding: 0.25em;
+    }
+    
+    textarea {
+        width: 95%;
+        height: 6em;
+        margin: 0 0 1em 1.3em;
+    }
+
+    .footer {
+        background-color: #666666;
+        border-top: 0.5em solid #4aaaa5;
+        text-align: center;
+        font-size: 0.6em;
+        color: #fff;
+        padding: 1.5em;
+        position: static;
+        bottom: 0;
+        right: 0;
+        width: 96%;
+    
     }
 }
