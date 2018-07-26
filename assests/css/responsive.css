@@ -68,7 +68,7 @@
     }
 
     #profilePic {
-        margin: 0 0 1em 1em;
+        margin: 0 0 1em 0.6em;
         width: 95%;
         height: 95%;
 
@@ -98,9 +98,6 @@
     }
 
     .footer {
-        position: static;
-        bottom: 0;
-        right: 0;
         width: 96%;
     
     }
