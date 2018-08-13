@@ -19,6 +19,7 @@ body {
     clear: both;
     border: 0.05em solid #dddddd;
     margin-bottom: 10em;
+    padding-bottom: 2em;
 }
 
 .headerMain {
